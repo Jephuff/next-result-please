@@ -12,6 +12,9 @@
         "matches": ["https://www.google.ca/*", "https://www.google.com/*"],
         "js":      ["index.js"]
     }],
+    "permissions": [
+        "tabs"
+    ],
     "commands": {
         "next_link": {
             "suggested_key": {

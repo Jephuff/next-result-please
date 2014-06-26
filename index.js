@@ -10,5 +10,6 @@ document.body.onclick = function (event) {
 		}
 		links.push(results[i].href);
 	}
+	
 	chrome.runtime.sendMessage(JSON.stringify({'current': current, 'links': links}));
 };
