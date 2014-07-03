@@ -1,10 +1,6 @@
 document.body.onclick = function (event) {
-	console.log(event.toElement);
-	var results = document.querySelectorAll('.srg h3 a');
-	var links = [];
-	var current = 0;
-
-	for(var i = 0; i < results.length; i++){
+	var i, current = 0, links = [], results = document.querySelectorAll('.srg h3 a');
+	for(i = 0; i < results.length; i++){
 		if(event.toElement.href === results[i].href){
 			current = i;
 		}

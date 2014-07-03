@@ -1,10 +1,7 @@
-var pager = new Pager();
-function Pager(){
+var pager = function (){
 	this.links = null;
 	this.index = null;
-	this.tab = null;
 	this.listening = false;
-	this.onCommand = onCommand.bind(this);
 
 	chrome.runtime.onMessage.addListener(function (msg){
 		var json = JSON.parse(msg);
@@ -15,7 +12,7 @@ function Pager(){
 			this.listening = true;
 		}
 	}.bind(this));
-}
+}();
 
 function onCommand(command) {
 	if(command === 'next_link'){
@@ -31,4 +28,4 @@ function onCommand(command) {
 			}.bind(this));
 		}
 	}
-}i
+}
