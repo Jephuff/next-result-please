@@ -18,17 +18,15 @@
     "commands": {
         "next_link": {
             "suggested_key": {
-                "default": "Ctrl+Shift+0"
+                "default": "Ctrl+Shift+X"
             },
-            "description": "go to next link",
-            "global": true
+            "description": "go to next link"
         },
         "previous_link": {
             "suggested_key": {
-                "default": "Ctrl+Shift+9"
+                "default": "Ctrl+Shift+Z"
             },
-            "description": "go to previous link",
-            "global": true
+            "description": "go to previous link"
         }
     }
 }
