@@ -3,13 +3,13 @@
     
     "name": "search pager",
     "description": "tab through google search results",
-    "version": "0.0",
+    "version": "0.1",
 
     "background": {
         "scripts": ["background.js"]
     },
     "content_scripts": [{
-        "matches": ["https://www.google.ca/*", "https://www.google.com/*"],
+        "matches": ["https://www.google.ca/search*", "https://www.google.com/search*"],
         "js":      ["index.js"]
     }],
     "permissions": [
