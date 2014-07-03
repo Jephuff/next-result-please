@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     
-    "name": "search pager",
-    "description": "tab through google search results",
+    "name": "Next Result Please",
+    "description": "Flip through google search results with a keyboard shortcut.",
     "version": "0.1",
 
     "background": {
